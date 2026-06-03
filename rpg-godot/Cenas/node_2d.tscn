@@ -311,3 +311,6 @@ position = Vector2(24.5, 0)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackHitbox" unique_id=974075780]
 shape = SubResource("RectangleShape2D_kdubu")
 debug_color = Color(0.9852844, 0.07294289, 0.24985558, 0.41960785)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1642842278]
+zoom = Vector2(3, 3)
